@@ -59,7 +59,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-
+.auth-nav .link {
+    color: var(--primary-text-color);
+}
 .site-nav .link:hover,
 .site-nav .link:focus,
 .auth-nav .link:hover,
@@ -138,6 +140,10 @@ body {
     line-height: 1.71;
 }
 
+.contacts .adds {
+    color: var(--primary-white-color);
+}
+
 .contacts .link:hover,
 .contacts .link:focus {
     color: var(--primary-white-color);
@@ -171,6 +177,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .button.primary {
